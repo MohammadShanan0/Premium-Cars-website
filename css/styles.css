@@ -5,6 +5,10 @@
     font-family: Arial, sans-serif;
 }
 
+body{
+    background: fixed center url(../images/11.jpg) ;
+    background-size: cover;
+}
 .header{
     width: 100%;
     height: 50px;
@@ -206,8 +210,8 @@
     width: 100%;
     height: 100vh;
     text-transform: capitalize;
-    background: center url(../images/11.jpg)  ;
-    background-size: cover;  
+    /* background: center url(../images/11.jpg) ;
+    background-size: cover; */
     position: relative;  
     /* border-bottom: 1px solid rgba(255, 255, 255,0.3); */
 
@@ -365,8 +369,8 @@
     width: 100%;
     height: 670px;
     text-transform: capitalize;
-    background: center url(../images/00.jpg)  ;
-    background-size: cover;
+    /* background: center url(../images/00.jpg)  ;
+    background-size: cover; */
     position: relative;
     /* border-bottom: 1px solid rgba(255, 255, 255,0.3); */
   }
@@ -538,8 +542,8 @@
     font-size: smaller;
     width: 100%; 
     height: 750px;
-    background: center url(../images/11.jpg)  ;
-    background-size: cover;
+    /* background: center url(../images/11.jpg)  ;
+    background-size: cover; */
     position: relative;
     /* border-bottom: 1px solid rgba(255, 255, 255,0.3); */
 
@@ -740,8 +744,8 @@
     font-size: smaller;
     width: 100%; 
     height: 610px;
-    background: center url(../images/00.jpg)  ;
-    background-size: cover;
+    /* background: center url(../images/00.jpg)  ;
+    background-size: cover; */
     position: relative;
     /* border-bottom: 1px solid rgba(255, 255, 255,0.3); */
 
@@ -925,8 +929,8 @@
     font-size: smaller;
     width: 100%; 
     height: 680px;
-    background: center url(../images/11.jpg)  ;
-    background-size: cover;
+    /* background: center url(../images/11.jpg)  ;
+    background-size: cover; */
     position: relative;
     /* border-bottom: 1px solid rgba(255, 255, 255,0.3); */
   }
@@ -1167,8 +1171,8 @@
     width: 100%;
     overflow: auto;
     height: 680px;
-    background: center url(../images/00.jpg)  ;
-    background-size: cover;
+    /* background: center url(../images/00.jpg)  ;
+    background-size: cover; */
     position: relative;
     /* border-bottom: 1px solid rgba(255, 255, 255,0.3); */
   }
@@ -1318,8 +1322,8 @@
     font-size: smaller;
     width: 100%; 
     height: 780px;
-    background: center url(../images/11.jpg) ;
-    background-size: cover;
+    /* background: center url(../images/11.jpg) ;
+    background-size: cover; */
     position: relative;
     /* border-bottom: 1px solid rgba(255, 255, 255,0.3); */
   }
