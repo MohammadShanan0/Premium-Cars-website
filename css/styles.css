@@ -6,8 +6,9 @@
 }
 
 body{
-    background: fixed center url(../images/11.jpg) ;
+    background: center url(../images/11.jpg) ;
     background-size: cover;
+    background-attachment: fixed;
 }
 .header{
     width: 100%;
