@@ -6,11 +6,7 @@
 }
 
 body{
-<<<<<<< HEAD
     background: center url(../images/11.jpg) ;
-=======
-    background: fixed center url(../Images/11.jpg) ;
->>>>>>> f1899323db0eed674cb97c38198768e49bef66cb
     background-size: cover;
     background-attachment: fixed;
 }
