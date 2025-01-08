@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.section8{
+    width: 100%;
+    /* height: 65vh; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.section8-contant{
+    float: left;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+
+}
+
+
+.section8-contant-icon{
+    font-size: 45px;
+    color: rgb(150, 150, 150);    
+
+}
+
+
+.section8-contant-title{
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: rgb(0, 0, 0);
+    margin: 60px 0 12px 0;
+    
+}
+
+.section8-contant-text{
+    font-size: 15px;
+    /* font-weight: bold; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: rgb(44, 43, 43);
+
+}
+/* ///////////////////////////////////////////////////////////////////// */
+
+.section8-menu {
+  list-style: none;
+  float: left;
+}
+
+.section8-a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section8-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.section8-menu .section8-li {
+  margin-left: 70px;
+}
+
+.section8-menu .section8-a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-size: 40px;
+}
+
+.section8-menu .section8-a .section8-span {
+  transition: transform 0.2s ease-out;
+}
+
+.section8-menu .section8-a .section8-span:first-child {
+  display: inline-block;
+  padding: 0 10px;
+  color: gray;
+}
+
+.section8-menu .section8-a .section8-span:last-child {
+  position: absolute;
+  color: #a37b24;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+
+}
+
+.section8-menu .section8-a:hover .section8-span:first-child {
+  transform: translateY(-100%);
+}
+
+.section8-menu .section8-a:hover .section8-span:last-child{
+  transform: none;
+}

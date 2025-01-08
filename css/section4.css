@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  /* background-color: #f9f9f9; */
+  perspective: 700px;
+
+}
+
+.container4 {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+  margin-bottom: 120px;
+}
+
+.section4-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding: 20px 0;
+}
+
+.section4-header h1 {
+  font-size: 28px;
+  color: #181818;
+}
+
+.section4-nav {
+  display: flex;
+}
+
+.section4-nav a {
+  text-decoration: none;
+  color: #272626;
+  font-size: 15px;
+  margin: 0 15px;
+  position: relative;
+  font-weight: bold;
+}
+
+.section4-nav a.section4-active {
+  color: #a37b24;
+}
+
+.section4-nav a.section4-active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color:  #a37b24;
+  position: absolute;
+  top: 41px;
+  left: 0;
+}
+
+.section4-nav a:hover {
+  color:  #a37b24;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+.section4-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  position: relative;
+}
+
+.section4-card {
+  background-color: #fff;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  width: 275px;
+  height: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+ 
+.section4  , .section4-back {
+    width: 275px;
+    height: 300px;
+
+  }
+  
+  .section4 {
+    margin: auto;
+    position: relative;
+    transition: all  2s ;
+    transform-style: preserve-3d;
+
+  }
+  
+ .section4-back {
+    position: absolute;
+  }
+   
+  .section4-card:hover .section4 {
+    transform: rotateY(180deg);
+  
+  }
+  
+  .section4-back {
+    /* width: 100%; */
+    transform: rotateY(180deg);
+    backface-visibility:  hidden ;
+    background:  url(../Images/4.jpg) center no-repeat ;
+    background-size: cover;
+    z-index: 5;
+  
+  }
+
+  .section4-back {
+    transform: rotateY(180deg);
+    background:  url(../Images/4.jpg) center no-repeat ;
+    background-size: cover;
+    backface-visibility:  hidden ;
+
+  }
+
+  .section4-card1{
+    background: url(../Images/2.jpg) no-repeat;
+    background-size: cover;
+  
+  }
+  .section4-card2{
+    background: url(../Images/1.jpg) no-repeat;
+    background-size: cover;
+  
+  }
+  .section4-card3{
+    background: url(../Images/7.jpg) no-repeat;
+    background-size: cover;
+  
+  }
+  .section4-card4{
+    background: url(../Images/8.jpg) no-repeat;
+    background-size: cover;
+  
+  }
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+.section4-card .card-info {
+  padding: 15px;
+}
+
+.card-info .card-info-p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-info .price1 {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.card-info .price2 {
+  color: rgb(65, 63, 63);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.section4-card:hover .card-info-p {
+  color: #a37b24;
+}
+
+
+.section4-card:hover .price2{
+  color: rgb(0, 0, 0);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.section4-icons {
+  /* margin-top: 260px; */
+  height: 300px;
+  display: flex;
+  flex-direction: row ;
+  justify-content:center;
+  align-items: flex-end;
+  position: absolute;
+  margin-left: 80px;
+  z-index: 5;
+
+}
+
+
+.section4-icon{
+  width: 45px;
+  height: 40px;
+  font-size: 25px;
+  color: black;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 2s;
+  transform: translateY(0);
+  padding-top: 10px;
+}
+
+.section4-card:hover .section4-icon {
+  opacity: 1;
+  transition: all 2s;
+  transform: translateY(-20px);
+  
+}
+
+.section4-icon:hover{
+  background-color: #a37b24;
+  color: #ddd;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+.section4-arrows {
+  position: absolute;
+  top: 40%;
+  font-size: 30px;
+  color: #706e6e;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.section4-arrows:hover {
+  color: rgb(0, 0, 0);
+  transition: all 1s;
+  transform: scale(1.2);
+}
+
+.section4-arrow-left {
+  left: -40px;
+}
+
+.section4-arrow-right {
+  right: -40px;
+}
+
+
+
