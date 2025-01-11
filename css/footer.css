@@ -101,23 +101,26 @@
   }
   
   .footer-social {
-    flex: 1;
+    flex: 0;
     text-align: right;
+    display: flex;
+    list-style: none;
+
   }
   
- .footer-a {
+  .footer-social  li , .footer-a {
     color: #677485;
     margin: 0 5px;
     font-size: 21px;
     text-decoration: none;
-    transition: all 1s;
+    transition: all 0.8s;
 
   }
   
- .footer-a:hover {
+  .footer-social  li:hover , .footer-social  .footer-a:hover{
     color: #a37b24;
-    transition: all 1s;
-    font-size: 22px;
+    transition: all 0.8s;
+    /* font-size: 22px; */
     transform: scale(1.09);
 
   }
@@ -183,11 +186,11 @@
     transition: all 1s;
   }
   
-  .footer-column ul li a:hover {
+  .footer-column ul li:hover ,.footer-column ul li a:hover {
     color:  #a37b24;
     text-decoration: underline;
     /* font-size: 15px; */
-    transform: scale(1.09);
+    transform: scale(1.07);
     transition: all 1s;
 
   }
